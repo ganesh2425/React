@@ -1,12 +1,10 @@
 import React from "react";
-import Order from "./Order/Order";
-import Cart from "./Cart/Cart";
+import Appfrag from "./AppFrag/Appfrag";
 
 function App() {
     return <div>
-    <h1>Hello,Good Morning..</h1>
-    <Order />
-    <Cart />
+
+    <Appfrag />
     </div>
 }
 
