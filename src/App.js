@@ -1,11 +1,12 @@
 import React from "react";
-import Appfrag from "./AppFrag/Appfrag";
+import Navbar from "./Nav-Table/Navbar";
+import Table from "./Nav-Table/Table"
+function App () {
+    return <>
+    <Navbar/>
+    <Table/>
 
-function App() {
-    return <div>
-
-    <Appfrag />
-    </div>
+    </>
 }
 
 export default App;
