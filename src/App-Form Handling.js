@@ -4,7 +4,7 @@ state = {
     email: "",
     password: "",
 }
-emailHandler(event){
+emailHandler = (event)=>{
     this.setState({
         email: event.target.value,
     });
