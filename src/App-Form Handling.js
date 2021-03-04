@@ -9,7 +9,7 @@ emailHandler = (event)=>{
         email: event.target.value,
     });
 }
-passwordHandler (event){
+passwordHandler =(event) =>{
     this.setState({
         password: event.target.value,
     });
